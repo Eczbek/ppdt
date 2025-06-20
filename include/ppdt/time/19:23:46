@@ -1,0 +1,3 @@
+#define PPDT_HOUR 19
+#define PPDT_MINUTE 23
+#define PPDT_SECOND 46
