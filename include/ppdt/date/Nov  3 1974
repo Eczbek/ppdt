@@ -1,3 +1,6 @@
 #define PPDT_YEAR 1974
 #define PPDT_MONTH 11
+#define PPDT_WEEK 44
 #define PPDT_DAY 3
+#define PPDT_DAY_OF_YEAR 306
+#define PPDT_DAY_OF_WEEK 7

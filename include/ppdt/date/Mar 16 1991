@@ -1,3 +1,6 @@
 #define PPDT_YEAR 1991
 #define PPDT_MONTH 3
+#define PPDT_WEEK 11
 #define PPDT_DAY 16
+#define PPDT_DAY_OF_YEAR 75
+#define PPDT_DAY_OF_WEEK 6

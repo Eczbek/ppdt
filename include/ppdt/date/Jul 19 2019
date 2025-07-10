@@ -1,3 +1,6 @@
 #define PPDT_YEAR 2019
 #define PPDT_MONTH 7
+#define PPDT_WEEK 29
 #define PPDT_DAY 19
+#define PPDT_DAY_OF_YEAR 200
+#define PPDT_DAY_OF_WEEK 5

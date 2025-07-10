@@ -1,3 +1,6 @@
 #define PPDT_YEAR 2102
 #define PPDT_MONTH 10
+#define PPDT_WEEK 41
 #define PPDT_DAY 9
+#define PPDT_DAY_OF_YEAR 282
+#define PPDT_DAY_OF_WEEK 1

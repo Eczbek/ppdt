@@ -1,3 +1,6 @@
 #define PPDT_YEAR 1997
 #define PPDT_MONTH 5
+#define PPDT_WEEK 20
 #define PPDT_DAY 15
+#define PPDT_DAY_OF_YEAR 135
+#define PPDT_DAY_OF_WEEK 4

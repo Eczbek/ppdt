@@ -1,3 +1,6 @@
 #define PPDT_YEAR 1978
 #define PPDT_MONTH 1
+#define PPDT_WEEK 3
 #define PPDT_DAY 20
+#define PPDT_DAY_OF_YEAR 20
+#define PPDT_DAY_OF_WEEK 5

@@ -1,3 +1,6 @@
 #define PPDT_YEAR 2050
 #define PPDT_MONTH 7
+#define PPDT_WEEK 28
 #define PPDT_DAY 15
+#define PPDT_DAY_OF_YEAR 196
+#define PPDT_DAY_OF_WEEK 5

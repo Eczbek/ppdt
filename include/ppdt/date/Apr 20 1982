@@ -1,3 +1,6 @@
 #define PPDT_YEAR 1982
 #define PPDT_MONTH 4
+#define PPDT_WEEK 16
 #define PPDT_DAY 20
+#define PPDT_DAY_OF_YEAR 109
+#define PPDT_DAY_OF_WEEK 2

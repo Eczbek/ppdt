@@ -1,13 +1,40 @@
 # PPDT
-A header-only library for preprocessor date and time parsing, similar to [my-ppmptd](https://github.com/JadLevesque/my-ppmptd).
-
-Includes all dates between 1970-01-01 and 2106-02-07, inclusively.
+A header-only library for parsing `__DATE__` and `__TIME__` with the C preprocessor. Also see [JadLevesque/my-ppmptd](https://github.com/JadLevesque/my-ppmptd)
 
 ### Usage
-The `ppdt.h` header defines the following macros, which expand to integer literals:
-- `PPDT_YEAR`
-- `PPDT_MONTH`
-- `PPDT_DAY`
-- `PPDT_HOUR`
-- `PPDT_MINUTE`
-- `PPDT_SECOND`
+The `ppdt.h` header defines the following macros:
+- `PPDT` - integer literal, library version
+- `PPDT_YEAR` - integer literal, current year (between `1970` and `2106`)
+- `PPDT_MONTH` - integer literal, current month (between `1` and `12`)
+- `PPDT_WEEK` - integer literal, current week (between `1` and `53`)
+- `PPDT_DAY` - integer literal, current day (between `1` and `31`)
+- `PPDT_DAY_OF_YEAR` - integer literal, current day of the year (between `1` and `366`)
+- `PPDT_DAY_OF_WEEK` - integer literal, current day of the week (between `1` and `7`)
+- `PPDT_HOUR` - integer literal, current hour (between `0` and `23`)
+- `PPDT_MINUTE` - integer literal, current minute (between `0` and `59`)
+- `PPDT_SECOND` - integer literal, current second (between `0` and `59`)
+- `PPDT_LEAP_YEAR(y)` - boolean integer literal, whether a year (between `0` and `65535`) has 366 days
+- `PPDT_MONTH_NAME(m)` - month name (e.g. `January`)
+- `PPDT_MONTH_NAME_UPPER(m)` - uppercase month name (e.g. `JANUARY`)
+- `PPDT_MONTH_NAME_LOWER(m)` - lowercase month name (e.g. `january`)
+- `PPDT_MONTH_NAME_SHORT(m)` - short month name (e.g. `Jan`)
+- `PPDT_MONTH_NAME_SHORT_UPPER(m)` - uppercase short month name (e.g. `JAN`)
+- `PPDT_MONTH_NAME_SHORT_LOWER(m)` - lowercase short month name (e.g. `jan`)
+- `PPDT_MONTH_STR(m)` - string literal, month name (e.g. `"January"`)
+- `PPDT_MONTH_STR_UPPER(m)` - string literal, uppercase month name (e.g. `"JANUARY"`)
+- `PPDT_MONTH_STR_LOWER(m)` - string literal, lowercase month name (e.g. `"january"`)
+- `PPDT_MONTH_STR_SHORT(m)` - string literal, short month name (e.g. `"Jan"`)
+- `PPDT_MONTH_STR_SHORT_UPPER(m)` - string literal, uppercase short month name (e.g. `"JAN"`)
+- `PPDT_MONTH_STR_SHORT_LOWER(m)` - string literal, lowercase short month name (e.g. `"jan"`)
+- `PPDT_DAY_NAME(d)` - weekday name (e.g. `Monday`)
+- `PPDT_DAY_NAME_UPPER(d)` - uppercase weekday name (e.g. `MONDAY`)
+- `PPDT_DAY_NAME_LOWER(d)` - lowercase weekday name (e.g. `monday`)
+- `PPDT_DAY_NAME_SHORT(d)` - short weekday name (e.g. `Mon`)
+- `PPDT_DAY_NAME_SHORT_UPPER(d)` - uppercase short weekday name (e.g. `MON`)
+- `PPDT_DAY_NAME_SHORT_LOWER(d)` - lowercase short weekday name (e.g. `mon`)
+- `PPDT_DAY_STR(d)` - string literal, weekday name (e.g. `"Monday"`)
+- `PPDT_DAY_STR_UPPER(d)` - string literal, uppercase weekday name (e.g. `"MONDAY"`)
+- `PPDT_DAY_STR_LOWER(d)` - string literal, lowercase weekday name (e.g. `"monday"`)
+- `PPDT_DAY_STR_SHORT(d)` - string literal, short weekday name (e.g. `"Mon"`)
+- `PPDT_DAY_STR_SHORT_UPPER(d)` - string literal, uppercase short weekday name (e.g. `"MON"`)
+- `PPDT_DAY_STR_SHORT_LOWER(d)` - string literal, lowercase short weekday name (e.g. `"mon"`)

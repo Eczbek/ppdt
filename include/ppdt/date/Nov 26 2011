@@ -1,3 +1,6 @@
 #define PPDT_YEAR 2011
 #define PPDT_MONTH 11
+#define PPDT_WEEK 47
 #define PPDT_DAY 26
+#define PPDT_DAY_OF_YEAR 329
+#define PPDT_DAY_OF_WEEK 6

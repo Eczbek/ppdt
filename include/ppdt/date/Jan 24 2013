@@ -1,3 +1,6 @@
 #define PPDT_YEAR 2013
 #define PPDT_MONTH 1
+#define PPDT_WEEK 4
 #define PPDT_DAY 24
+#define PPDT_DAY_OF_YEAR 24
+#define PPDT_DAY_OF_WEEK 4

@@ -1,3 +1,6 @@
 #define PPDT_YEAR 2056
 #define PPDT_MONTH 10
+#define PPDT_WEEK 40
 #define PPDT_DAY 6
+#define PPDT_DAY_OF_YEAR 280
+#define PPDT_DAY_OF_WEEK 5

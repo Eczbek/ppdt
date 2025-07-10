@@ -1,3 +1,6 @@
 #define PPDT_YEAR 2037
 #define PPDT_MONTH 11
+#define PPDT_WEEK 48
 #define PPDT_DAY 25
+#define PPDT_DAY_OF_YEAR 328
+#define PPDT_DAY_OF_WEEK 3

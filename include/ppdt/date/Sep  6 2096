@@ -1,3 +1,6 @@
 #define PPDT_YEAR 2096
 #define PPDT_MONTH 9
+#define PPDT_WEEK 36
 #define PPDT_DAY 6
+#define PPDT_DAY_OF_YEAR 250
+#define PPDT_DAY_OF_WEEK 4

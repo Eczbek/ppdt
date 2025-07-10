@@ -1,3 +1,6 @@
 #define PPDT_YEAR 1999
 #define PPDT_MONTH 11
+#define PPDT_WEEK 46
 #define PPDT_DAY 17
+#define PPDT_DAY_OF_YEAR 320
+#define PPDT_DAY_OF_WEEK 3

@@ -1,3 +1,6 @@
 #define PPDT_YEAR 2004
 #define PPDT_MONTH 3
+#define PPDT_WEEK 13
 #define PPDT_DAY 26
+#define PPDT_DAY_OF_YEAR 86
+#define PPDT_DAY_OF_WEEK 5

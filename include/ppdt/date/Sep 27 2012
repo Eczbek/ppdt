@@ -1,3 +1,6 @@
 #define PPDT_YEAR 2012
 #define PPDT_MONTH 9
+#define PPDT_WEEK 39
 #define PPDT_DAY 27
+#define PPDT_DAY_OF_YEAR 271
+#define PPDT_DAY_OF_WEEK 4

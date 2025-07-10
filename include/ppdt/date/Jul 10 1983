@@ -1,3 +1,6 @@
 #define PPDT_YEAR 1983
 #define PPDT_MONTH 7
+#define PPDT_WEEK 27
 #define PPDT_DAY 10
+#define PPDT_DAY_OF_YEAR 191
+#define PPDT_DAY_OF_WEEK 7
