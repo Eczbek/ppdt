@@ -1,8 +1,8 @@
 # PPDT
-A header-only library for parsing `__DATE__` and `__TIME__` with the C preprocessor. Also see [JadLevesque/my-ppmptd](https://github.com/JadLevesque/my-ppmptd)
+Header library for parsing `__DATE__` and `__TIME__` with the C preprocessor.
 
 ### Usage
-The `ppdt.h` header defines the following macros:
+`ppdt.h` defines the following macros:
 - `PPDT` - integer literal, library version
 - `PPDT_YEAR` - integer literal, current year (between `1970` and `2106`)
 - `PPDT_MONTH` - integer literal, current month (between `1` and `12`)
@@ -12,7 +12,7 @@ The `ppdt.h` header defines the following macros:
 - `PPDT_DAY_OF_WEEK` - integer literal, current day of the week (between `1` and `7`)
 - `PPDT_HOUR` - integer literal, current hour (between `0` and `23`)
 - `PPDT_MINUTE` - integer literal, current minute (between `0` and `59`)
-- `PPDT_SECOND` - integer literal, current second (between `0` and `59`)
+- `PPDT_SECOND` - integer literal, current second (between `0` and `59`, or `60` for leap seconds)
 - `PPDT_LEAP_YEAR(y)` - boolean integer literal, whether a year (between `0` and `65535`) has 366 days
 - `PPDT_MONTH_NAME(m)` - month name (e.g. `January`)
 - `PPDT_MONTH_NAME_UPPER(m)` - uppercase month name (e.g. `JANUARY`)
